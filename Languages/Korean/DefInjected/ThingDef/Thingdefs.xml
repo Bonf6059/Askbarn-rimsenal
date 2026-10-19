@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LanguageData>
+
+  <RaceBallLightning.label>구형 전광</RaceBallLightning.label>
+  
+  <Bullet_Sigrun.label>시그룬탄</Bullet_Sigrun.label>
+  <JI_Sigrun.label>용해 정찰 카빈</JI_Sigrun.label>
+  <JI_Sigrun.description>카빈 형태로 개조된 요툰 인터스텔라 용해 권총입니다. 제조사의 상징적인 화력과 장갑관통 능력은 일부 잃었으나, 보다 쓰기 쉬우면서도 위력은 여전히 훌륭합니다.
+
+요툰 인터스텔라 JP-1844/R "시그룬" 초고밀도 액화 금속탄 정찰 카빈.
+
+내수용이라기 보다 수출용으로 설계된 이 피스톨 카빈은 쉬운 조작성과 여전한 화력으로 큰 명성을 누리고 있습니다. 요툰하임의 전사 대부분은 시그룬이 너무 가볍고 화력이 아닌 다른 사소한 것에 지나치게 집착하는 설계라고 투덜댑니다만, 아스크반 정찰병들은 바로 그 이유 때문에 시그룬을 숭배하다시피 합니다.</JI_Sigrun.description>
+  <Gun_FusterClucker.label>클러스터 조지개</Gun_FusterClucker.label>
+  <Gun_FusterClucker.description>사거리가 매우 긴 EMP 병기로, 중무장 자동화 방어진지를 원거리에서 교란하기 위해 설계됐습니다.
+공식 명칭은 "정밀 장사정 전자기 펄스 방사 체계"입니다만, 림월드 주민들 대다수는 "클러스터 조지개"라고 부릅니다. 그럴 만한 이유가 있죠.</Gun_FusterClucker.description>
+  <Bullet_FusterClucker.label>EMP 펄스</Bullet_FusterClucker.label>
+
+  <Bullet_DisruptionPistol.label>EMP 펄스</Bullet_DisruptionPistol.label>
+  <Gun_DisruptionPistol.label>EMP 권총</Gun_DisruptionPistol.label>
+  <Gun_DisruptionPistol.description>단사정 휴대용 EMP 병기입니다.</Gun_DisruptionPistol.description>
+  
+  
+  <Bullet_EMPSurge.label>EMP 파동</Bullet_EMPSurge.label>
+  <Apparel_SurgePack.label>EMP 방출팩</Apparel_SurgePack.label>
+  <Apparel_SurgePack.description>정밀 전자장비를 교란하는 용도로 설계된 전술 EMP 방출 패키지입니다. 사용시 장비에서 목표 지점을 향해 강력한 전자기 펄스 파동을 뿜어냅니다.</Apparel_SurgePack.description>
+  
+  
+</LanguageData>

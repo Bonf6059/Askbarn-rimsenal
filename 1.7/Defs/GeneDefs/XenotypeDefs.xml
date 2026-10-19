@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <XenotypeDef>
+    <defName>Askbarn</defName>
+    <label>Åskbarn</label>
+    <description>Originating from Jotun Interstellar’s failed super-soldier project, Åskbarns are a fragile but cunning race capable of emitting electromagnetic surges from specialized organs.
+	
+Though their weak bodies make close combat difficult, their exceptional eyesight makes them superb marksmen. Rather than engage the enemy up close, Åskbarns prefer to strike from a distance and retreat—always with their characteristic optimism.
+
+Many tribes call them “thunder children” for their ability to project electromagnetic pulses—a name that, funnily enough, is the exact meaning of “Åskbarn.”
+Due to their disarmingly open nature, Åskbarns have become the subject of numerous suspicious stereotypes—such as the belief that they’re all natural-born con artists or incurable pranksters.</description>
+    <descriptionShort>Natural-born tricksters, Åskbarns are a fast, quick-witted race capable of emitting electromagnetic pulses through specialized organs.
+Their fragile bodies make them poorly suited for close combat, but they excel at long-range marksmanship.
+They have notoriously poor artistic and animal-handling skills, and their bodies heal at a slower rate than most.</descriptionShort>
+	<inheritable>true</inheritable>
+    <nameMaker>NamerPersonAskbarn_Male</nameMaker>
+    <nameMakerFemale>NamerPersonAskbarn_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+	<iconPath>UI/Icons/Xenotypes/thundergoblin_race</iconPath>
+    <genes>
+			<li>Race_Gene_PEA</li>
+			<li>Race_Gene_GlowingWhiteEyes</li>
+			<li>Gene_Hair_Bright_Teal</li>
+			<li>Hair_SnowWhite</li>
+			<li>Hair_Grayless</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>LowFertility</li>
+			<li>Pointy_Average_Head</li>
+			<li>BladedTail</li>
+			<li>EMPSurge</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+			<li>WoundHealing_Slow</li>
+			<li>MeleeDamage_Weak</li>
+			<li>Mood_Optimist</li>
+			<li>Delicate</li>
+			<li>Libido_High</li>
+			<li>AptitudeStrong_Social</li>
+			<li>Skin_SheerWhite</li>
+			<li>Skin_LightGray</li>
+			<li>Skin_SlateGray</li>
+			<li>Learning_Fast</li>
+			<li>RSLightningReflexes</li>
+			<li>FireWeakness</li>
+			<li>AptitudeTerrible_Animals</li>
+			<li>AptitudeTerrible_Artistic</li>
+			<li>RSLongshot</li>
+    </genes>
+  </XenotypeDef>
+
+
+  <XenotypeDef>
+    <defName>Uredd</defName>
+    <label>Uredd</label>
+    <description>Uredde (singular: Uredd) are xenohumans engineered for anti-mechanoid combat— the intended result of the Stormweaver Project.
+Tough, composed, and unflinching even in the direst circumstances, they are valiant close-quarters combatants.
+
+Unlike the Åskbarns, whose electromagnetic pulse is a directed discharge, the Uredde instead emit a powerful EMP blast centered on themselves. Designed as large, physically imposing xenohumans, Uredde are natural-born melee specialists. Many of the Åskbarns’ weaknesses have been removed or reengineered, thoroughly optimizing them for brutal close combat.
+
+While their long-range marksmanship has been significantly diminished compared to the original lineage, this tradeoff is considered acceptable—Uredde are rarely expected to shoot from afar when their primary job is smashing mechanoids in the trenches of Jotunheim.</description>
+    <descriptionShort>Genetically engineered warriors, Uredde are a robust, melee-specialized race with formidable close-combat capabilities and the ability to unleash an EMP blast centered on themselves. More importantly, they remain calm and unshaken even in the most dire situations.
+However, they struggle with art, plant work, and crafting—and their nearsightedness makes them poorly suited for ranged combat.</descriptionShort>
+	<inheritable>true</inheritable>
+    <nameMaker>NamerPersonAskbarn_Male</nameMaker>
+    <nameMakerFemale>NamerPersonAskbarn_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+	<iconPath>UI/Icons/Xenotypes/thunderogre_race</iconPath>
+    <genes>
+			<li>Race_Gene_BEA</li>
+			<li>Race_Gene_AmberEyes</li>
+			<li>Gene_Hair_Blue_Sky</li>
+			<li>Hair_SnowWhite</li>
+			<li>Hair_Grayless</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>LowFertility</li>
+			<li>Pointy_Average_Head</li>
+			<li>SpikedTail</li>
+			<li>EMPRoar</li>
+			<li>Body_Standard</li>
+			<li>Body_Hulk</li>
+			<li>Nearsighted</li>
+			<li>RSBornWarrior</li>
+			<li>Libido_High</li>
+			<li>Skin_BlueGray</li>
+			<li>Skin_LightGray</li>
+			<li>Skin_OceanGray</li>
+			<li>Pain_Reduced</li>
+			<li>Unstoppable</li>
+			<li>Aggression_DeadCalm</li>
+			<li>PsychicAbility_Dull</li>
+			<li>AptitudeStrong_Melee</li>
+			<li>AptitudeTerrible_Crafting</li>
+			<li>AptitudeTerrible_Plants</li>
+			<li>AptitudeTerrible_Artistic</li>
+    </genes>
+  </XenotypeDef>
+
+
+</Defs>

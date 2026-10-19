@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FacialAnimation.EyeballColorDef MayRequire="Nals.FacialAnimation">
+    <defName>Race_Gene_GlowingWhiteEyesColor</defName>
+    <geneDef>Race_Gene_GlowingWhiteEyes</geneDef>
+    <eyeballColor>RGB(1,1,1)</eyeballColor>  
+  </FacialAnimation.EyeballColorDef>
+
+</Defs>

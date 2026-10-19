@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <ThingDef Name="BaseJIGun" Abstract="True" ParentName="BaseWeapon" MayRequire="rimsenal.core">
+		<techLevel>Spacer</techLevel>
+		<smeltable>true</smeltable>
+    <thingCategories>
+      <li>JIWeapons</li>
+    </thingCategories>
+    <weaponTags>
+       <li>JIGun</li>
+    </weaponTags>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <generateCommonality>0.05</generateCommonality>
+    <comps>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    <recipeMaker>
+      <researchPrerequisite>MoltenTech</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>JITable</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseBullet" MayRequire="rimsenal.core">
+    <defName>Bullet_Sigrun</defName>
+    <label>sigrun slug</label>
+    <graphicData>
+      <texPath>Things/Projectile/Slug</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>17</damageAmountBase>
+      <speed>100</speed>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.55</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseJIGun" MayRequire="rimsenal.core">
+    <defName>JI_Sigrun</defName>
+    <label>ULM recon carbine</label>
+    <description>A Jotun Interstellar ULM pistol modified into a carbine. While it loses some of the manufacturer’s iconic firepower and armor-piercing capability, it’s much easier to handle, fires faster, and still packs a punch.
+
+Jotun Interstellar JP-1844/R “Sigrun” ULM (Ultra-density Liquefied Metal) Recon Carbine
+
+Designed primarily for export rather than domestic use, this pistol-carbine has earned a solid reputation for its user-friendly design and surprisingly potent firepower.
+While most Jotunheim warriors complain that it feels too light and that its design prioritizes trivial features over raw destructive power, Askbarn scouts praise the Sigrun precisely for those same qualities.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Sigrun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <weaponTags>
+	   <li>SpacerGun</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <statBases>
+      <Mass>3.4</Mass>
+      <WorkToMake>41500</WorkToMake>
+      <AccuracyTouch>0.61</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>40</Steel>
+      <Plasteel>30</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Sigrun</defaultProjectile>
+        <warmupTime>0.82</warmupTime>
+        <range>26.9</range>
+        <soundCast>RS_ShotJI</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+  
+	<!-- ============================================== -->
+
+	<ThingDef ParentName="BaseBullet" MayRequire="rimsenal.EVP">
+		<defName>Bullet_FusterClucker</defName>
+		<label>EMP blast</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/RaceBallLightning</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<explosionRadius>2.0</explosionRadius>
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>100</damageAmountBase>
+			<speed>40</speed>
+		</projectile>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BaseHumanMakeableGun" MayRequire="rimsenal.EVP">
+		<defName>Gun_FusterClucker</defName>
+		<label>fuster clucker</label>
+		<description>A very long-range, high-powered EMP weapon designed to neutralize heavily automated defense positions from a distance.
+
+Its official designation is the "Precision Long-Range Electromagnetic Pulse Projection System", but most Rimworlders call it the "Fuster Clucker"—for reasons that become obvious once it's fired.</description>
+		<graphicData>
+			<texPath>Things/Weapons/fusterclucker</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<statBases>
+			<WorkToMake>71500</WorkToMake>
+			<Mass>8.8</Mass>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.73</AccuracyShort>
+			<AccuracyMedium>0.78</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>3.1</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>DirectedEMP</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Steel>45</Steel>
+			<Plasteel>55</Plasteel>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<generateCommonality>0.1</generateCommonality>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>SpacerGun</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<forcedMissRadius>0.5</forcedMissRadius>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_FusterClucker</defaultProjectile>
+				<warmupTime>4.2</warmupTime>
+				<range>55</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Shot_ChargeRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>18</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+
+  
+	<ThingDef ParentName="BaseBullet" MayRequire="rimsenal.EVP">
+		<defName>Bullet_DisruptionPistol</defName>
+		<label>EMP blast</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/EMPBlast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<explosionRadius>1</explosionRadius>
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>40</damageAmountBase>
+			<speed>40</speed>
+		</projectile>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BaseHumanMakeableGun" MayRequire="rimsenal.EVP">
+		<defName>Gun_DisruptionPistol</defName>
+		<label>EMP pistol</label>
+		<description>A handheld short-range EMP weapon. A compact, short-range EMP device designed for disabling electronics at close quarters. Ideal for breaching operations or emergency countermeasures against mechanoids and turrets.</description>
+		<graphicData>
+			<texPath>Things/Weapons/EMPpistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>46500</WorkToMake>
+			<Mass>2.1</Mass>
+			<AccuracyTouch>0.89</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.78</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>DirectedEMP</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Steel>25</Steel>
+			<Plasteel>35</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<generateCommonality>0.1</generateCommonality>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+	   <li>Shield_Sidearm</li>
+			<li>SpacerGun</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<forcedMissRadius>0.1</forcedMissRadius>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_DisruptionPistol</defaultProjectile>
+				<warmupTime>0.52</warmupTime>
+				<range>15</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Shot_ChargeRifle</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+
+
+</Defs>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Race_Gene_PEA.label>뾰족한 귀 부속지</Race_Gene_PEA.label>
+  <Race_Gene_PEA.description>이 유전자가 있으면 귀에 뾰족한 부속지가 돋아납니다.</Race_Gene_PEA.description>
+
+  <Race_Gene_GlowingWhiteEyes.label>빛나는 흰색 눈</Race_Gene_GlowingWhiteEyes.label>
+  <Race_Gene_GlowingWhiteEyes.description>이 유전자 보유자는 눈이 형형히 빛나는 흰색입니다.</Race_Gene_GlowingWhiteEyes.description>
+
+  <Gene_Hair_Bright_Teal.label>밝은 청록색 머리카락</Gene_Hair_Bright_Teal.label>
+  <Gene_Hair_Bright_Teal.description>이 유전자는 머리카락에 밝은 청록색 색소를 형성합니다.</Gene_Hair_Bright_Teal.description>
+
+  <LowFertility.label>낮은 번식력</LowFertility.label>
+  <LowFertility.description>이 유전자는 임신하거나 남을 임신시킬 확률을 줄입니다.</LowFertility.description>
+
+  <Pointy_Average_Head.label>뾰족한 보통 두상</Pointy_Average_Head.label>
+  <Pointy_Average_Head.description>이 유전자 보유자의 두상은 뾰족한 보통 형태입니다.</Pointy_Average_Head.description>
+  
+  <BladedTail.label>칼날 꼬리</BladedTail.label>
+  <BladedTail.description>이 유전자의 보유자는 칼날 꼬리가 달립니다.</BladedTail.description>
+  
+  <RSLongshot.label>저격수</RSLongshot.label>
+  <RSLongshot.description>이 유전자의 보유자는 시력이 훌륭합니다. 장거리 사격 능력이 향상됩니다.</RSLongshot.description>
+
+  <RSLightningReflexes.label>신속한 반사신경</RSLightningReflexes.label>
+  <RSLightningReflexes.description>이 유전자의 보유자는 반사신경이 뛰어납니다.</RSLightningReflexes.description>
+
+  <EMPSurge.label>번개 방출</EMPSurge.label>
+  <EMPSurge.description>이 유전자 보유자는 특수한 생체 전기 기관에서 둥구런 전기 구체를 방출할 수 있습니다. 명중 지점 주변 작은 범위의 전자 기기를 일시적으로 마비시킵니다.</EMPSurge.description>
+  
+  
+  <Race_Gene_BE.label>칼날 귀 부속지</Race_Gene_BE.label>
+  <Race_Gene_BE.description>이 유전자가 있으면 귀에 칼날같은 부속지가 돋아납니다.</Race_Gene_BE.description>
+
+  <Race_Gene_AmberEyes.label>호박색 눈</Race_Gene_AmberEyes.label>
+  <Race_Gene_AmberEyes.description>이 유전자 보유자는 눈이 호박색입니다.</Race_Gene_AmberEyes.description>
+
+  <Gene_Hair_Blue_Sky.label>하늘색 머리카락</Gene_Hair_Blue_Sky.label>
+  <Gene_Hair_Blue_Sky.description>이 유전자는 머리카락에 하늘색 색소를 형성합니다.</Gene_Hair_Blue_Sky.description>
+  
+  <SpikedTail.label>가시 꼬리</SpikedTail.label>
+  <SpikedTail.description>이 유전자의 보유자는 가시 꼬리가 달립니다.</SpikedTail.description>
+
+  <RSBornWarrior.label>타고난 전사</RSBornWarrior.label>
+  <RSBornWarrior.description>이 유전자의 보유자는 태생적으로 백병전에 능숙합니다.</RSBornWarrior.description>
+
+  <EMPRoar.label>천둥 울음</EMPRoar.label>
+  <EMPRoar.description>이 유전자의 보유자는 자신을 중심으로 EMP 폭발을 일으킬 수 있습니다. 폭발에 노출된 전자기기는 잠시 작동을 정지합니다.</EMPRoar.description>
+ 
+  <Skin_BlueGray.label>청회색 피부</Skin_BlueGray.label>
+  <Skin_BlueGray.description>이 유전자 보유자의 피부에는 청회색 색소가 형성됩니다..</Skin_BlueGray.description>
+
+  <Skin_OceanGray.label>진청회색 피부</Skin_OceanGray.label>
+  <Skin_OceanGray.description>이 유전자 보유자의 피부에는 진청회색 색소가 형성됩니다..</Skin_OceanGray.description>
+ 
+
+</LanguageData>

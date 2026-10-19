@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <NamerPersonAskbarn_Female.rulePack.rulesStrings>
+    <li>r_name->[firstName] [Syl][End]</li>
+        <li>End->디스</li>
+        <li>End->티스</li>
+        <li>End->드리스</li>
+        <li>End->리젤</li>
+        <li>End->리겔</li>
+        <li>End->라스</li>
+        <li>End->트라스</li>
+        <li>End->나르드</li>
+        <li>End->니스</li>
+        <li>End->드릿</li>
+        <li>End->하르트</li>
+        <li>End->그렌</li>
+        <li>End->브론</li>
+        <li>End->크론</li>
+        <li>End->케인</li>
+        <li>End->타인</li>
+        <li>End->제인</li>
+        <li>End->제르트</li>
+        <li>End->리르</li>
+        <li>End->시라</li>
+        <li>End->리아</li>
+        <li>End->티아</li>
+        <li>End->시아</li>
+        <li>End->티라</li>
+        <li>End->니라</li>
+        <li>End->트라</li>
+        <li>End->시니</li>
+        <li>End->리니</li>
+        <li>End->티니</li>
+        <li>End->레니</li>
+        <li>End->세니</li>
+        <li>End->리티</li>
+        <li>End->게르트</li>
+        <li>End->가르트</li>
+        <li>End->타라</li>
+        <li>End->나라</li>
+        <li>End->시아라</li>
+  </NamerPersonAskbarn_Female.rulePack.rulesStrings>
+  
+  <NamerPersonAskbarn_Male.rulePack.rulesStrings>
+    <li>r_name->[firstName] [Syl][End]</li>
+        <li>End->디스</li>
+        <li>End->티스</li>
+        <li>End->드리스</li>
+        <li>End->리젤</li>
+        <li>End->리겔</li>
+        <li>End->라스</li>
+        <li>End->트라스</li>
+        <li>End->나르드</li>
+        <li>End->니스</li>
+        <li>End->드릿</li>
+        <li>End->하르트</li>
+        <li>End->그렌</li>
+        <li>End->브론</li>
+        <li>End->크론</li>
+        <li>End->케인</li>
+        <li>End->타인</li>
+        <li>End->제인</li>
+        <li>End->제르트</li>
+        <li>End->리르</li>
+        <li>End->시라</li>
+        <li>End->리아</li>
+        <li>End->티아</li>
+        <li>End->시아</li>
+        <li>End->티라</li>
+        <li>End->니라</li>
+        <li>End->트라</li>
+        <li>End->시니</li>
+        <li>End->리니</li>
+        <li>End->티니</li>
+        <li>End->레니</li>
+        <li>End->세니</li>
+        <li>End->리티</li>
+        <li>End->게르트</li>
+        <li>End->가르트</li>
+        <li>End->타라</li>
+        <li>End->나라</li>
+        <li>End->시아라</li>
+  </NamerPersonAskbarn_Male.rulePack.rulesStrings>
+  
+  
+</LanguageData>
