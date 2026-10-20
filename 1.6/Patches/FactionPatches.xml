@@ -11,14 +11,12 @@
 					<xpath>/Defs/FactionDef[defName="OutlanderRefugee"]/xenotypeSet/xenotypeChances</xpath>
 					<value>
 						<Askbarn>0.025</Askbarn>
-						<Uredd>0.025</Uredd>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/FactionDef[defName="Empire"]/xenotypeSet/xenotypeChances</xpath>
 					<value>
 						<Askbarn>0.025</Askbarn>
-						<Uredd>0.025</Uredd>
 					</value>
 				</li>
 			</operations>
@@ -29,7 +27,6 @@
 		<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
 		<value>
 						<Askbarn>0.025</Askbarn>
-						<Uredd>0.025</Uredd>
 		</value>
 	</Operation>
 
@@ -37,7 +34,6 @@
 		<xpath>/Defs/FactionDef[defName="Pirate"]/xenotypeSet/xenotypeChances</xpath>
 		<value>
 						<Askbarn>0.025</Askbarn>
-						<Uredd>0.025</Uredd>
 		</value>
 	</Operation>
 	
@@ -52,14 +48,12 @@
 					<xpath>/Defs/FactionDef[defName="Beggars"]/xenotypeSet/xenotypeChances</xpath>
 					<value>
 						<Askbarn>0.025</Askbarn>
-						<Uredd>0.025</Uredd>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/FactionDef[defName="Pilgrims"]/xenotypeSet/xenotypeChances</xpath>
 					<value>
 						<Askbarn>0.025</Askbarn>
-						<Uredd>0.025</Uredd>
 					</value>
 				</li>
 			</operations>
