@@ -434,7 +434,8 @@
     </graphicData>
     <projectile>
       <explosionRadius>2</explosionRadius>
-      <damageDef>ElectricalBurn</damageDef>
+      <!--<damageDef>ElectricalBurn</damageDef>-->
+	  <damageDef>Stun</damageDef>
       <damageAmountBase>150</damageAmountBase>
       <speed>35</speed>
     </projectile>
@@ -512,7 +513,8 @@
     </graphicData>
     <projectile>
       <explosionRadius>4</explosionRadius>
-      <damageDef>ElectricalBurn</damageDef>
+      <!--<damageDef>ElectricalBurn</damageDef>-->
+	  <damageDef>Stun</damageDef>
       <damageAmountBase>150</damageAmountBase>
       <speed>300</speed>
     </projectile>
